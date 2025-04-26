@@ -1,0 +1,406 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.headsection {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+}
+
+.headsection-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.containerhead {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar a:hover{
+    color: #8E7754;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #e0dcd2;
+    padding-block: 15px;
+    padding-inline: 10px;
+    text-transform: capitalize;
+    font-family: "Alegreya", serif;
+}
+
+
+.bakery-logo img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.headsection-content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.headsection-content p {
+    font-family: "Alegreya Sans", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+h1 {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 76px;
+    margin-block: 0;
+}
+.buttons-about:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.buttons-contact:hover{
+    background-color: white;
+    color: black;
+}
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 15px 28px;
+    color: white;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+
+.buttons-about {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+
+.buttons-contact {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.first-page {
+    margin: auto;
+    width: 75%;
+    padding: 5%;
+
+}
+
+.page1-1 {
+    width: 47%;
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.page1-2 {
+    width: 47%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+
+}
+
+.page1-1 img {
+    width: 100%;
+    vertical-align: middle;
+}
+.page1-2 p img{
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+}
+
+.page1-2 img {
+    width: 5%;
+    vertical-align: middle;
+
+}
+
+.page1-2 p,
+.page2-1 span {
+    font-family: "Alegreya Sans", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(104, 104, 104);
+    line-height: 32px;
+    font-size: 17px;
+}
+
+.page1-2 h2,
+.page2-1 h3 {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+}
+
+.page2 {
+    background-color: #f8f8f8;
+    margin: auto;
+}
+
+.second-page {
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 0.875em;
+}
+
+.page2-1 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page2-1 h3,
+p {
+    margin-bottom: 20px;
+}
+
+.page2-2 {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.page2-2 img {
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.spacing {
+    margin-top: 20px;
+}
+
+.general-info {
+    text-align: center;
+    padding: 5%;
+
+}
+
+.baking {
+
+    width: 80%;
+    margin: auto;
+}
+
+.baking h3,
+h4,
+.contact-info1 h2,
+.container1 h4 {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+
+}
+
+.baking p,
+.contact-info1 p,
+.container1 p,
+.logo p {
+    font-family: "Alegreya Sans", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(136, 136, 136);
+    line-height: 1.86em;
+    font-size: 17px;
+}
+
+.our-baking {
+    float: left;
+    width: 33.33%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.our-baking-info {
+
+    padding: 10px;
+
+}
+
+.our-baking-info img {
+    width: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.contact-info {
+    background-color: #F8F8F8;
+    margin: auto;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    font-size: 0.875em;
+
+}
+
+.contact-info1 {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.contact-info p h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info1 img {
+    width: 8%;
+    vertical-align: middle;
+    background-color: #8E7754;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact-info2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.main {
+    background-color: #403d38;
+
+
+}
+
+.container1 {
+    width: 90%;
+    margin: auto;
+}
+
+.last-page {
+    float: left;
+    width: 25%;
+    margin-bottom: 50;
+    background-color: #403d38;
+}
+
+.content1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.last-page img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.container1 h4 {
+    font-family: "Alegreya", serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+}
+
+#map {
+    background-image: url(../images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(64, 61, 56, 0.8);
+}
+
+
+.footer {
+    padding-top: 60px;
+    background: #353330;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    margin: auto;
+}
+
+.logo2 {
+    width: 20%;
+    margin: auto;
+}
+
+.social-media {
+    float: left;
+    width: 25%;
+}
+
+.social-media img {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #979796;
+    border-radius: 50%;
+}
+.social-media .facebook:hover{
+    background-color: #0275d8;
+
+}
+.social-media .google:hover{
+    background-color: red;
+
+}
+.social-media .linkedin:hover{
+    background-color: #0275d8;
+
+}
+.social-media .twitter:hover{
+    background-color: #0275d8;
+
+}
